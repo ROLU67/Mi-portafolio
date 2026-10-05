@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roger | Portafolio de desarrollador</title>
+<meta name="description" content="Portafolio de Roger, estudiante del TecNM Cintalapa en electrónica, microcontroladores y desarrollo web.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="brand" href="index.html">Roger</a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menú</button>
+  <nav aria-label="Principal"><ul id="menu">
+    <li><a href="index.html" aria-current="page">Inicio</a></li>
+    <li><a href="about.html">Sobre mí</a></li>
+    <li><a href="contact.html">Contacto</a></li>
+  </ul></nav>
+</div></header>
+<main>
+<div class="wrap">
+  <section class="hero">
+    <h1>Hola, soy Roger.</h1>
+    <p class="lead">Estudio en el TecNM Cintalapa. Me interesan los microcontroladores, la electrónica y el desarrollo web.</p>
+    <div class="btns">
+      <a class="btn primary" href="#proyectos">Ver proyectos</a>
+      <a class="btn ghost" href="contact.html">Contactar</a>
+    </div>
+    <svg class="trace" viewBox="0 0 900 70" preserveAspectRatio="none" role="img" aria-label="Señal de onda cuadrada">
+      <path d="M0 55 H60 V15 H140 V55 H200 V15 H300 V55 H350 V15 H420 V55 H520 V15 H580 V55 H680 V15 H740 V55 H880"/>
+      <circle cx="888" cy="55" r="7"/>
+    </svg>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul class="skills">
+      <li>C / C++ para microcontroladores</li>
+      <li>Electrónica digital</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Linux (Ubuntu)</li>
+      <li>Git y GitHub</li>
+      <li>Docker y Dokploy</li>
+    </ul>
+  </section>
+
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="projects">
+      <!-- TODO: reemplaza estos proyectos por los tuyos -->
+      <article class="project">
+        <h3>Proyecto con microcontrolador</h3>
+        <p>Describe aquí qué hace, qué sensores o módulos usa y qué problema resuelve.</p>
+        <span class="tags">Arduino · C++ · Sensores</span>
+      </article>
+      <article class="project">
+        <h3>Sitio web desplegado con Dokploy</h3>
+        <p>Este portafolio: código en GitHub y despliegue automático en un servidor Linux de la red local.</p>
+        <span class="tags">HTML · CSS · GitHub · Dokploy</span>
+      </article>
+      <article class="project">
+        <h3>Práctica de Git y GitHub</h3>
+        <p>Control de versiones desde la terminal de Ubuntu: repositorios, commits y push.</p>
+        <span class="tags">Git · Ubuntu · Terminal</span>
+      </article>
+    </div>
+  </section>
+</div>
+</main>
+<footer class="site"><div class="wrap">
+  © <span id="year">2026</span> Roger · Estudiante en el TecNM Cintalapa, Chiapas
+</div></footer>
+<script src="js/main.js"></script>
+</body>
+</html>
