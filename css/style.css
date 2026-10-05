@@ -23,7 +23,7 @@ nav a:hover,nav a[aria-current="page"]{border-bottom-color:var(--led)}
 .menu-btn{display:none;background:none;border:1px solid var(--line);color:var(--ink);padding:.4rem .7rem;border-radius:6px;font:inherit}
 
 .hero{padding:4rem 0 2rem}
-profile-photo{
+.profile-photo{
   width:110px;
   height:110px;
   margin-bottom:1.5rem;
