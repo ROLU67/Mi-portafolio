@@ -24,8 +24,8 @@ nav a:hover,nav a[aria-current="page"]{border-bottom-color:var(--led)}
 
 .hero{padding:4rem 0 2rem}
 profile-photo{
-  width:150px;
-  height:150px;
+  width:110px;
+  height:110px;
   margin-bottom:1.5rem;
   border-radius:50%;
   overflow:hidden;
