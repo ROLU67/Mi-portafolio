@@ -70,3 +70,4 @@ footer.site{border-top:1px solid var(--line);margin-top:2rem;padding:1.5rem 0;co
   .trace path{animation:none;stroke-dashoffset:0}
   .trace circle{animation:none;opacity:1}
 }
+.foto{display:block;width:160px;height:160px;border-radius:50%;object-fit:cover;border:4px solid var(--pcb);margin-bottom:1.25rem}
